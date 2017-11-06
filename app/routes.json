@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/components/navbar/",
+    "component": "components/navbar.vue"
+  },
+  {
+    "path": "/home/",
+    "component": "home.vue"
+  },
+  {
+    "path": "/left-pannel-sidebar/",
+    "component": "left-pannel-sidebar.vue"
+  },
+  {
+    "path": "/look/",
+    "component": "look.vue"
+  },
+  {
+    "path": "/test/",
+    "component": "test.vue"
+  }
+]

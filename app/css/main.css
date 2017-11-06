@@ -1,0 +1,12 @@
+.radius-50 {
+    border-radius: 50%;
+}
+.center {
+    text-align: center;
+}
+.right {
+ text-align: right;
+}
+.mt10 {
+    margin-top: 10px;
+}
