@@ -25,5 +25,8 @@
     "studio": "node node_modules/app-framework/scripts/cordova --studio",
     "xcode": "node node_modules/app-framework/scripts/cordova --xcode",
     "zip": "node node_modules/app-framework/scripts/deprecated"
+  },
+  "dependencies": {
+    "simple-netease-cloud-music": "^0.1.8"
   }
 }

@@ -17,12 +17,12 @@
                         <f7-list media-list class="basic">
                             <f7-list-item
                                     link="/item/"
-                                    media="<i class='fa-envelope-o'></i>"
+                                    media="<i class='icon ion-ios-mail-outline'></i>"
                                     title="我的消息"
                             ></f7-list-item>
                             <f7-list-item
                                     link="/item/"
-                                    media="<i class='fa fa-diamond'></i>"
+                                    media="<i class='icon ion-ios-person-outline'></i>"
                                     title="会员中心"
                             ></f7-list-item>
                             <f7-list-item
@@ -32,12 +32,12 @@
                             ></f7-list-item>
                             <f7-list-item
                                     link="/item/"
-                                    media="<i class='fa fa-clock-o'></i>"
+                                    media="<i class='icon ion-ios-clock-outline'></i>"
                                     title="定时停止播放"
                             ></f7-list-item>
                             <f7-list-item
                                     link="/item/"
-                                    media="<i class='fa fa-user-o'></i>"
+                                    media="<i class='icon ion-ios-qr-scanner-outline'></i>"
                                     title="扫一扫"
                             ></f7-list-item>
                         </f7-list>
@@ -45,14 +45,14 @@
                             <f7-list-item
                                     link="/#/"
                                     title="我的好友"
-                                    media="<i class='fa fa-user-o'></i>"
+                                    media="<i class='icon ion-ios-people-outline'></i>"
                                     after=""
                             >
                             </f7-list-item>
                             <f7-list-item
                                     link="/#/"
                                     title="附近的人"
-                                    media="<i class='fa fa-map-o'></i>"
+                                    media="<i class='icon ion-ios-pin-outline'></i>"
                                     after=""
                             >
                             </f7-list-item>
@@ -60,16 +60,21 @@
                         <f7-list media-list class="fast" form>
                             <f7-list-item
                                     title="仅WIFI联网"
-                                    media="<i class='fa fa-wifi'></i>"
+                                    media="<i class='icon ion-ios-wifi-outline'></i>"
                             >
                                 <f7-input slot="after" type="switch"></f7-input>
                             </f7-list-item>
                         </f7-list>
                         <f7-toolbar bottom>
-                            <f7-link icon="fa fa-moon-o" text="夜间模式"></f7-link>
-                            <f7-link icon="fa fa-gear" text="设置"></f7-link>
-                            <f7-link icon="fa fa-circle-o-notch" text="退出"></f7-link>
+                            <f7-link icon-ion="ios-moon-outline" text="夜间模式"></f7-link>
+                            <f7-link icon-ion="ios-settings-outline" text="设置"></f7-link>
+                            <f7-link icon-ion="ios-power-outline" text="退出"></f7-link>
                         </f7-toolbar>
+                      <f7-list>
+                        <f7-list-item>
+                          <f7-icon ion="ios-power-outline" size="40"></f7-icon>
+                        </f7-list-item>
+                      </f7-list>
                     </f7-page>
                 </f7-pages>
             </f7-view>
@@ -86,6 +91,13 @@
     }
 </script>
 <style>
+  .media-list li .item-link .item-media {
+    padding-top: 10px;
+  }
+
+  .media-list li .item-link .item-media i.icon{
+    font-size: 20px;
+  }
     .left-panel-sidebar .list-block .item-media + .item-inner {
         margin-left: 0px;
     }
@@ -105,6 +117,7 @@
     .avatar {
         display: block;border-radius: 50%;
     }
+
 
 
     /*.list-block ul:before,.list-block ul:after {*/

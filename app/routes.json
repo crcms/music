@@ -16,6 +16,22 @@
     "component": "look.vue"
   },
   {
+    "path": "/repository/",
+    "component": "repository.vue"
+  },
+  {
+    "path": "/repository/navbar/",
+    "component": "repository/navbar.vue"
+  },
+  {
+    "path": "/repository/recommend/",
+    "component": "repository/recommend.vue"
+  },
+  {
+    "path": "/repository/singer/",
+    "component": "repository/singer.vue"
+  },
+  {
     "path": "/test/",
     "component": "test.vue"
   }

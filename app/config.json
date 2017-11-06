@@ -20,7 +20,9 @@
   "limitedSizeBodyBackgroundColor": "#333333",
   "showPhoneFrameOnDesktop": true,
   "phoneFrameBodyBackgroundColor": "#fafafa",
-  "framework7parameters": {},
+  "framework7parameters": {
+    "swipePanel": "left"
+  },
   "materialSubnavbarFix": true,
   "restoreHistory": true,
   "restoreComponentData": true,
