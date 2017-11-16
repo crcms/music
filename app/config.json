@@ -49,7 +49,10 @@
   "loginRequiredForAllPages": false,
   "appStoreId": "",
   "playStoreId": "",
-  "useCordovaPlugins": [],
+  "useCordovaPlugins": [
+    "cordova-plugin-badge",
+    "cordova-plugin-crosswalk-webview"
+  ],
   "cordovaPreferences": {
     "DisallowOverscroll": true
   },

@@ -129,8 +129,9 @@
     </f7-toolbar>
     <f7-block>
       aaaaa
-      <audio controls id="audio" src="http://m10.music.126.net/20171106173708/cd81dd028952f962ef49abaad23f08d5/ymusic/9593/59ca/56ea/fc92992c2eac7137bf4cc1d7851fe094.mp3"></audio>
+      <audio  controls id="audio" src="http://m10.music.126.net/20171108211517/b21184dc2276616a1cdd10490271717b/ymusic/9593/59ca/56ea/fc92992c2eac7137bf4cc1d7851fe094.mp3"></audio>
       aaaa
+      <f7-progressbar  :progress="30" color="red"></f7-progressbar>
     </f7-block>
     <f7-block>
       <f7-link view="a" text="aaaaa" href="/repository/test2"></f7-link>
@@ -186,11 +187,12 @@ export default {
     init() {
       this.$f7.swiper('#a').on('slideChange', () => {
         // console.log('slide changed');
-      });
+      })
 
-      let audio = document.createElement("audio");
-      console.log(audio.duration)
-      console.log(audio.currentSrc);
+      // const audio = document.createElement('audio')
+      // console.log(audio)
+      // console.log(audio.duration)
+      // console.log(audio.currentSrc)
     },
   },
 }

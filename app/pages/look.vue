@@ -15,15 +15,21 @@
 <script>
 import Navbar from './components/navbar.vue'
 
+
 export default {
   name: 'look',
   data() {
     return {}
   },
+  created() {
+    // Set badge to 10
+    window.cordova.plugins.notification.badge.set(10)
+  },
   components: {
     Navbar,
   },
 }
+
 </script>
 
 
